@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<application
+			type="server-application"
+			xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			xsi:noNamespaceSchemaLocation="http://www.m-files.com/schemas/appdef-server-v1.xsd">
+  <guid>6cb6e676-4186-434e-b980-710195aa8db4</guid>
+  <name>WAICAK.PettyCashReconciliation.Production</name>
+  <description>WAICAK.PettyCashReconciliation.Production</description>
+  <publisher></publisher>
+  <version>1.0.0.0</version>
+  <copyright></copyright>
+  <extension-objects>
+    <extension-object>
+      <name>WAICAK.PettyCashReconciliation.Production</name>
+      <assembly>WAICAK.PettyCashReconciliation.Production.dll</assembly>
+      <class>WAICAK.PettyCashReconciliation.Production.VaultApplication</class>
+      <installation-method>Install</installation-method>
+      <uninstallation-method>Uninstall</uninstallation-method>
+      <initialization-method>Initialize</initialization-method>
+      <uninitialization-method>Uninitialize</uninitialization-method>
+      <start-operations-method>StartOperations</start-operations-method>
+    </extension-object>
+  </extension-objects>
+</application>
